@@ -113,7 +113,7 @@ def about(bot, update):
     reply_keyboard = InlineKeyboardMarkup(keyboard)
     bot.send_message(chat_id=uid,
                      text='Our Instagram Page',
-                     reply_keyboard=reply_keyboard)
+                     reply_markup=reply_keyboard)
 
     return ConversationHandler.END
 
