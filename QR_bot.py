@@ -141,7 +141,7 @@ def error(update, error_):
 # ********************************************************* main **************
 def main():
     """main function"""
-    updater = Updater(TOKEN) #Phikabot
+    updater = Updater(TOKEN)
     dp = updater.dispatcher
 
     updater.dispatcher.add_handler(CallbackQueryHandler(cancel))
